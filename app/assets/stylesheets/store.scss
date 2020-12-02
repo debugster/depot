@@ -1,5 +1,5 @@
 // Place all the styles related to the Store controller here.
-// They will automatically be included in application.css.
+// They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .store {
@@ -27,7 +27,9 @@
         box-shadow: 0.2em 0.2em 0.4em 0px rgba(0, 0, 0, 0.75);
       }
       .price {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: darkblue;
       }
     }
   }
