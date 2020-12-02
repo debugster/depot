@@ -44,8 +44,8 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   test "product is not valid without a unique title" do
-    product = Product.new(title: products(:motorola_razr_v3).title,
-                          description: "Hello Moto!",
+    product = Product.new(title: products(:pixel_5).title,
+                          description: "Hello Google!",
                           price: 1,
                           image_url: "fred.jpg")
     assert product.invalid?
