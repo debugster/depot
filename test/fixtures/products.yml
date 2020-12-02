@@ -11,3 +11,10 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+pixel_5:
+  title: Pixel 5
+  description:
+    Google Pixel 5
+  price: 499.00
+  image_url: Pixel-5-Black.jpg
