@@ -31,6 +31,21 @@
         font-weight: bold;
         color: darkblue;
       }
+
+      form, div {
+        display: inline;
+      }
+      input[type = "submit"] {
+        background-color: #228822;
+        border-radius: 0.3em;
+        border: solid thin #114411;
+        color: white;
+        font-size: 1em;
+        padding: 0.3em 1em;
+      }
+      input[type = "submit"]:hover {
+        background-color: #114411;
+      }
     }
   }
 }
