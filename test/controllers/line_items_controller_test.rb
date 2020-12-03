@@ -24,7 +24,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     follow_redirect!
 
     assert_select 'h2', 'Your Cart'
-    assert_select 'li', 'Pixel 5'
+    assert_select 'li', "1 \u00D7 Pixel 5"
     # assert_redirected_to line_item_url(LineItem.last)
   end
 
