@@ -1,0 +1,13 @@
+es:
+  layouts:
+    applications:
+      title: "NUX Tienda Online"
+      home: "Inicio"
+      faq: "Preguntas más frecuentes"
+      news: "Noticias"
+      contact: "Contacto"
+
+  store:
+    index:
+      title_html: "Tu Catalogo"
+      add_html: "Añadir al carrito"
